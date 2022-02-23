@@ -30,6 +30,9 @@ resource "aws_security_group" "worker_group_gslb_dns" {
       "0.0.0.0/0",
     ]
   }
+  tags = {
+    yor_trace = "793f7d69-54d1-4b1a-9c40-ce6330aeb890"
+  }
 }
 
 module "vpc" {
