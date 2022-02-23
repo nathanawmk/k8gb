@@ -37,5 +37,8 @@ resource "aws_iam_policy" "external-dns-route53" {
     ]
 }
 EOF
+  tags = {
+    yor_trace = "0e535bb3-2e22-42cf-bce3-c2f30e983c00"
+  }
 }
 
